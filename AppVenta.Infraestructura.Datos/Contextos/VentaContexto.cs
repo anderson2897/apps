@@ -15,6 +15,7 @@ namespace AppVenta.Infraestructura.Datos.Contextos {
         string USERNAME = Environment.GetEnvironmentVariable("USERNAME");
         string PASSWORD = Environment.GetEnvironmentVariable("PASSWORD");
 
+
 		public VentaContexto()
 		{
 			this.Database.EnsureCreated();
